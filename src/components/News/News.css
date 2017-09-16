@@ -1,0 +1,16 @@
+#news {
+  margin: 0 0 50px; }
+  #news #newsLabel {
+    color: #ff0000;
+    text-align: center;
+    padding: 8px;
+    font-family: Aharoni, serif;
+    font-size: 120%;
+    font-style: oblique;
+    border-top: 1px #820006 solid;
+    border-bottom: 1px #820006 solid; }
+  #news .products img {
+    margin: 50px 30px;
+    width: 20%; }
+
+/*# sourceMappingURL=News.css.map */

@@ -1,0 +1,23 @@
+$light-red: #ff0000;
+$burgundy: #820006;
+
+#news{
+  margin: 0 0 50px;
+
+  #newsLabel {
+    color: $light-red;
+    text-align: center;
+    padding: 8px;
+    font-family: Aharoni, serif;
+    font-size: 120%;
+    font-style: oblique;
+    border-top: 1px $burgundy solid;
+    border-bottom: 1px $burgundy solid;
+  }
+
+  .products img{
+    margin:50px 30px;
+    width: 20%;
+  }
+}
+

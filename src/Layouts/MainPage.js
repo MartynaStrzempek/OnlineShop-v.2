@@ -5,6 +5,7 @@ import Header from "../components/Header/Header";
 import MainNavigation from "../components/MainNavigation/MainNavigation";
 import Hits from "../components/Hits/Hits";
 import Promotions from "../components/Promotions/Promotions";
+import News from "../components/News/News";
 
 export default class MainPage extends Component {
 
@@ -17,6 +18,7 @@ export default class MainPage extends Component {
                 <div className="container">
                     <Hits/>
                     <Promotions/>
+                    <News/>
                 </div>
             </div>
         );
