@@ -1,0 +1,53 @@
+$red: #e8000d;
+$burgundy: #820006;
+$white: #ffffff;
+
+
+.mainNav{
+  height: 40px;
+  margin: 0 auto;
+  background-color: $red;
+  border-top: 1px $burgundy solid;
+  border-bottom: 1px $burgundy solid;
+  text-align: center;
+  text-transform: uppercase;
+
+  nav{
+    font-size: 130%;
+    ul{
+      list-style: none;
+
+      li{
+        float: left;
+        display: block;
+        width: 180px;
+        line-height: 40px;
+        background: $red;
+        text-decoration: none;
+        font-family: Aharoni, serif;
+        color: $white;
+
+        &:hover{
+          background: $white;
+          color: $red;
+        }
+
+        &:hover ul li{
+          display:block;
+        }
+
+        ul{
+          li{
+            position: relative;
+            display: none;
+
+            &:hover{
+              border-top: 1px $burgundy solid;
+              border-bottom: 1px $burgundy solid;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.mainNav {
+  height: 40px;
+  margin: 0 auto;
+  background-color: #e8000d;
+  border-top: 1px #820006 solid;
+  border-bottom: 1px #820006 solid;
+  text-align: center;
+  text-transform: uppercase; }
+  .mainNav nav {
+    font-size: 130%; }
+    .mainNav nav ul {
+      list-style: none; }
+      .mainNav nav ul li {
+        float: left;
+        display: block;
+        width: 180px;
+        line-height: 40px;
+        background: #e8000d;
+        text-decoration: none;
+        font-family: Aharoni, serif;
+        color: #ffffff; }
+        .mainNav nav ul li:hover {
+          background: #ffffff;
+          color: #e8000d; }
+        .mainNav nav ul li:hover ul li {
+          display: block; }
+        .mainNav nav ul li ul li {
+          position: relative;
+          display: none; }
+          .mainNav nav ul li ul li:hover {
+            border-top: 1px #820006 solid;
+            border-bottom: 1px #820006 solid; }
+
+/*# sourceMappingURL=MainNavigation.css.map */
