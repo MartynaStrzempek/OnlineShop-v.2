@@ -1,0 +1,14 @@
+$light-gray: #e3e3e3;
+$gray: #b6b6b6;
+
+footer{
+  align-content: center;
+  font-family: Aharoni, serif;
+  background-color: $light-gray;
+  border-top: 1px $gray solid;
+
+  h4{
+    width: 20%;
+    margin: 25px auto;
+  }
+}

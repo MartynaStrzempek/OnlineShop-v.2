@@ -1,3 +1,7 @@
+$light-red: #ff0000;
+$white: #ffffff;
+$dark-red: #bf0000;
+
 #newsletter {
   form {
     font-family: Arial, serif;
@@ -9,7 +13,7 @@
       font-size: 200%;
       width: 15%;
       float: left;
-      color: #ff0000;
+      color: $light-red;
       font-weight: bold;
     }
 
@@ -27,15 +31,15 @@
 
     #newsletterButton {
       .formControl {
-        background-color: #ff0000;
+        background-color: $light-red;
         border: none;
-        color: #ffffff;
+        color: $white;
         font-weight: bold;
         float: right;
         width: 15%;
 
         &:hover {
-          background-color: #bf0000;
+          background-color: $dark-red;
         }
       }
     }

@@ -8,6 +8,7 @@ import Promotions from "../components/Promotions/Promotions";
 import News from "../components/News/News";
 import Boxes from "../components/Boxes/Boxes";
 import Newsletter from "../components/Newsletter/Newsletter";
+import Footer from "../components/Footer/Footer";
 
 export default class MainPage extends Component {
 
@@ -24,6 +25,7 @@ export default class MainPage extends Component {
                 </div>
                 <Boxes/>
                 <Newsletter/>
+                <Footer/>
             </div>
         );
     }
