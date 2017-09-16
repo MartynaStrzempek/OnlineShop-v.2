@@ -1,0 +1,16 @@
+#promotions {
+  margin: 0 0 50px; }
+  #promotions #promotionLabel {
+    color: #ff0000;
+    text-align: center;
+    padding: 8px;
+    font-family: Aharoni, serif;
+    font-size: 120%;
+    font-style: oblique;
+    border-top: 1px #820006 solid;
+    border-bottom: 1px #820006 solid; }
+  #promotions .products img {
+    margin: 50px 30px;
+    width: 20%; }
+
+/*# sourceMappingURL=Promotions.css.map */
