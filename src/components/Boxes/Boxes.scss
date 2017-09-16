@@ -1,0 +1,22 @@
+#boxes{
+  background-color: #e3e3e3;
+
+  .box{
+    float: left;
+    padding: 20px 98px 50px;
+    text-align: center;
+    font-family: "Berlin Sans FB", serif;
+    color:#363636;
+    width: 120px;
+    height: 130px;
+
+    label{
+      font-size: 600%;
+      color: #ff0000;
+    }
+
+    &:hover{
+      background-color: #ffffff;
+    }
+  }
+}

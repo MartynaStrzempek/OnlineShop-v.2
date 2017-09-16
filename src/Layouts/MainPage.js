@@ -6,6 +6,7 @@ import MainNavigation from "../components/MainNavigation/MainNavigation";
 import Hits from "../components/Hits/Hits";
 import Promotions from "../components/Promotions/Promotions";
 import News from "../components/News/News";
+import Boxes from "../components/Boxes/Boxes";
 
 export default class MainPage extends Component {
 
@@ -20,6 +21,7 @@ export default class MainPage extends Component {
                     <Promotions/>
                     <News/>
                 </div>
+                <Boxes/>
             </div>
         );
     }
