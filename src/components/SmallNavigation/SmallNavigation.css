@@ -1,3 +1,22 @@
-
+.smallNav {
+  background-color: #e3e3e3;
+  border-bottom: #b6b6b6 1px solid;
+  padding: 8px 0 8px; }
+  .smallNav nav {
+    float: right; }
+    .smallNav nav li {
+      float: left;
+      display: inline;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #000000;
+      font-family: Aharoni, serif;
+      font-size: 12px;
+      font-style: oblique;
+      border-right: #000000 1px solid;
+      padding: 0 15px; }
+      .smallNav nav li:hover {
+        font-weight: bold;
+        font-style: normal; }
 
 /*# sourceMappingURL=SmallNavigation.css.map */

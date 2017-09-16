@@ -1,0 +1,39 @@
+$black: #000000;
+$light-gray: #e3e3e3;
+$gray: #b6b6b6;
+
+.smallNav{
+  background-color: $light-gray;
+  border-bottom: $gray 1px solid;
+  padding: 8px 0 8px;
+
+  nav{
+    float: right;
+
+    li{
+      float: left;
+      display: inline;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $black;
+      font-family: Aharoni, serif;
+      font-size: 12px;
+      font-style: oblique;
+      border-right: $black 1px solid;
+      padding: 0 15px;
+
+      &:hover {
+        font-weight: bold;
+        font-style: normal;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
