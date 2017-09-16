@@ -1,0 +1,43 @@
+#newsletter {
+  form {
+    font-family: Arial, serif;
+    width: 80%;
+    margin: 25px auto;
+    padding-bottom: 80px;
+
+    #newsletterLabel {
+      font-size: 200%;
+      width: 15%;
+      float: left;
+      color: #ff0000;
+      font-weight: bold;
+    }
+
+    .inputGroup {
+      label {
+        padding-left: 197px;
+      }
+
+      .formControl {
+        width: 60%;
+        float: left;
+        margin-left: 45px;
+      }
+    }
+
+    #newsletterButton {
+      .formControl {
+        background-color: #ff0000;
+        border: none;
+        color: #ffffff;
+        font-weight: bold;
+        float: right;
+        width: 15%;
+
+        &:hover {
+          background-color: #bf0000;
+        }
+      }
+    }
+  }
+}
