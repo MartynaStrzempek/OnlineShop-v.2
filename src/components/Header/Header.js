@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from 'C:/Users/MyszkaMartynka/WebstormProjects/shoppppppp/src/img/logo.png';
-
+import './Header.css'
 export default class Header extends Component {
 
     render() {
