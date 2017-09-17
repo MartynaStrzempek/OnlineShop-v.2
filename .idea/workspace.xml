@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2668c41b-07f3-4e21-9aa4-5dcfe9f4a86a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Boxes/Boxes.css" afterPath="$PROJECT_DIR$/src/components/Boxes/Boxes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Boxes/Boxes.css.map" afterPath="$PROJECT_DIR$/src/components/Boxes/Boxes.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Boxes/Boxes.scss" afterPath="$PROJECT_DIR$/src/components/Boxes/Boxes.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.css" afterPath="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.css.map" afterPath="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.scss" afterPath="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.css" afterPath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.css.map" afterPath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.scss" afterPath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,8 +45,8 @@
       <file leaf-file-name="MainNavigation.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="527">
+              <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -286,12 +280,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505150636264</updated>
       <workItem from="1505150637906" duration="15499000" />
-      <workItem from="1505647601098" duration="2860000" />
+      <workItem from="1505647601098" duration="3295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39472000" />
+    <option name="totallyTimeSpent" value="39907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="527">
+          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding />
         </state>
       </provider>

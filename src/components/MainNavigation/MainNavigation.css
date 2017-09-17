@@ -21,7 +21,9 @@
         color: #ffffff; }
         .mainNav nav ul li:hover {
           background: #ffffff;
-          color: #5c2fb4; }
+          color: #5c2fb4;
+          border-top: 3px #5c2fb4 solid;
+          line-height: 38px; }
         .mainNav nav ul li:hover ul li {
           display: block; }
         .mainNav nav ul li ul li {
@@ -29,6 +31,7 @@
           display: none; }
           .mainNav nav ul li ul li:hover {
             border-top: 1px #5c2fb4 solid;
-            border-bottom: 3px #5c2fb4 solid; }
+            border-bottom: 4px #5c2fb4 solid;
+            line-height: 35px; }
 
 /*# sourceMappingURL=MainNavigation.css.map */

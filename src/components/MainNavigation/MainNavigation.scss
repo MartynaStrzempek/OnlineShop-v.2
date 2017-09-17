@@ -27,9 +27,11 @@ $white: #ffffff;
         font-family: Aharoni, serif;
         color: $white;
 
-        &:hover {
+        &:hover{
           background: $white;
           color: #5c2fb4;
+          border-top: 3px #5c2fb4 solid;
+          line-height: 38px;
         }
 
         &:hover ul li{
@@ -43,7 +45,8 @@ $white: #ffffff;
 
             &:hover{
               border-top: 1px #5c2fb4 solid;
-              border-bottom: 3px #5c2fb4 solid;
+              border-bottom: 4px #5c2fb4 solid;
+              line-height: 35px;
             }
           }
         }
