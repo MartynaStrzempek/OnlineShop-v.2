@@ -5,23 +5,23 @@ $dark-gray: #363636;
 
 #boxes{
   background-color: $light-gray;
+}
 
-  .box{
-    float: left;
-    padding: 20px 98px 50px;
-    text-align: center;
-    font-family: "Berlin Sans FB", serif;
-    color: $dark-gray;
-    width: 120px;
-    height: 130px;
+.box{
+  float: left;
+  padding: 20px 98px 50px;
+  text-align: center;
+  font-family: "Berlin Sans FB", serif;
+  color: $dark-gray;
+  width: 120px;
+  height: 130px;
 
-    label{
-      font-size: 600%;
-      color: $light-red;
-    }
+  label{
+    font-size: 600%;
+    color: $light-red;
+  }
 
-    &:hover{
-      background-color: $white;
-    }
+  &:hover{
+    background-color: $white;
   }
 }

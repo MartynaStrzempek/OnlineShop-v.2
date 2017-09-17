@@ -9,39 +9,44 @@ $dark-red: #bf0000;
     margin: 25px auto;
     padding-bottom: 80px;
 
-    #newsletterLabel {
-      font-size: 200%;
-      width: 15%;
-      float: left;
-      color: $light-red;
-      font-weight: bold;
+
     }
 
-    .inputGroup {
-      label {
-        padding-left: 197px;
-      }
+  .inputGroup label{
+    padding-left: 197px;
+  }
+}
 
-      .formControl {
-        width: 60%;
-        float: left;
-        margin-left: 45px;
-      }
-    }
+#newsletterLabel {
+  font-size: 200%;
+  width: 15%;
+  float: left;
+  color: $light-red;
+  font-weight: bold;
+}
 
-    #newsletterButton {
-      .formControl {
-        background-color: $light-red;
-        border: none;
-        color: $white;
-        font-weight: bold;
-        float: right;
-        width: 15%;
 
-        &:hover {
-          background-color: $dark-red;
-        }
-      }
+
+
+
+  .formControl {
+    width: 60%;
+    float: left;
+    margin-left: 45px;
+  }
+
+
+#newsletterButton {
+  .formControl {
+    background-color: $light-red;
+    border: none;
+    color: $white;
+    font-weight: bold;
+    float: right;
+    width: 15%;
+
+    &:hover {
+      background-color: $dark-red;
     }
   }
 }
