@@ -18,7 +18,7 @@ export default class Newsletter extends Component {
                         </div>
 
                         <div id="newsletterButton">
-                            <button type="submit" value="Sign up" className="formControl"/>
+                            <button className="formControl">Sign up</button>
                         </div>
                     </form>
                 </div>
@@ -26,3 +26,4 @@ export default class Newsletter extends Component {
         );
     }
 }
+

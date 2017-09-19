@@ -1,0 +1,15 @@
+.box {
+  float: left;
+  padding: 20px 98px 50px;
+  text-align: center;
+  font-family: "Berlin Sans FB", serif;
+  color: #363636;
+  width: 120px;
+  height: 130px; }
+  .box label {
+    font-size: 600%;
+    color: #5c2fb4; }
+  .box:hover {
+    background-color: #ffffff; }
+
+/*# sourceMappingURL=Box.css.map */

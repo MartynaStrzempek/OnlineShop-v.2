@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Boxes.css'
+import Box from "../Box/Box";
 
 export default class Boxes extends Component {
 
@@ -7,22 +8,10 @@ export default class Boxes extends Component {
         return (
             <section id="boxes">
                 <div className="container">
-                    <div className="box">
-                        <label>!</label>
-                        <h1>Protect equipment</h1>
-                    </div>
-                    <div className="box">
-                        <label>$</label>
-                        <h1> Free transport</h1>
-                    </div>
-                    <div className="box">
-                        <label>%</label>
-                        <h1>Instalments</h1>
-                    </div>
-                    <div className="box">
-                        <label>?</label>
-                        <h1>How to buy</h1>
-                    </div>
+                    <Box label={'!'} text={'Protect equipment'}/>
+                    <Box label={'$'} text={'Free transport'}/>
+                    <Box label={'%'} text={'Instalments'}/>
+                    <Box label={'?'} text={'How to buy'}/>
                 </div>
             </section>
         );

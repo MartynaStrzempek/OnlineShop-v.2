@@ -9,44 +9,75 @@ $dark-red: #bf0000;
     margin: 25px auto;
     padding-bottom: 80px;
 
-
+    .inputGroup label{
+      padding-left: 197px;
     }
 
-  .inputGroup label{
-    padding-left: 197px;
+    .formControl {
+      width: 60%;
+      float: left;
+      margin-left: 45px;
+    }
+
+    #newsletterButton {
+      .formControl {
+        background-color: #5c2fb4;
+        border: none;
+        color: $white;
+        font-weight: bold;
+        font-size: 150%;
+        float: right;
+        width: 15%;
+        height: 60px;
+
+        &:hover {
+          background-color: #000000;
+        }
+      }
+    }
+
+    #newsletterLabel {
+      font-size: 200%;
+      width: 15%;
+      float: left;
+      color: #000000;
+      font-weight: 900;
+    }
   }
 }
 
-#newsletterLabel {
-  font-size: 200%;
-  width: 15%;
-  float: left;
-  color: #000000;
-  font-weight: 900;
+.formControl:focus{
+  border: 1px #ff0000 solid;
+  outline: 0;
 }
 
+.inputGroup{
+  position: relative;
+}
 
+.formControl{
+  margin: 10px 0;
+  padding: 0 12px;
+  height: 50px;
+  width: 100%;
+  font-size: 120%;
+  border: 1px #b6b6b6 solid;
+  background-color: transparent;
+}
 
+.inputGroup label{
+  position: absolute;
+  top: 27px;
+  left: 13px;
+}
 
+.formControl:focus + label,
+.hasValue + label{
+  top: 12px;
+  font-size: 60%;
+  color: #ff0000;
+}
 
-  .formControl {
-    width: 60%;
-    float: left;
-    margin-left: 45px;
-  }
-
-
-#newsletterButton {
-  .formControl {
-    background-color: $light-red;
-    border: none;
-    color: $white;
-    font-weight: bold;
-    float: right;
-    width: 15%;
-
-    &:hover {
-      background-color: $dark-red;
-    }
-  }
+.hasValue{
+  border-color: #000000;
 }

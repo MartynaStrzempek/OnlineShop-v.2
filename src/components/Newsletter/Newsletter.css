@@ -3,29 +3,58 @@
   width: 80%;
   margin: 25px auto;
   padding-bottom: 80px; }
-#newsletter .inputGroup label {
-  padding-left: 197px; }
+  #newsletter form .inputGroup label {
+    padding-left: 197px; }
+  #newsletter form .formControl {
+    width: 60%;
+    float: left;
+    margin-left: 45px; }
+  #newsletter form #newsletterButton .formControl {
+    background-color: #5c2fb4;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 150%;
+    float: right;
+    width: 15%;
+    height: 60px; }
+    #newsletter form #newsletterButton .formControl:hover {
+      background-color: #000000; }
+  #newsletter form #newsletterLabel {
+    font-size: 200%;
+    width: 15%;
+    float: left;
+    color: #000000;
+    font-weight: 900; }
 
-#newsletterLabel {
-  font-size: 200%;
-  width: 15%;
-  float: left;
-  color: #000000;
-  font-weight: 900; }
+.formControl:focus {
+  border: 1px #ff0000 solid;
+  outline: 0; }
+
+.inputGroup {
+  position: relative; }
 
 .formControl {
-  width: 60%;
-  float: left;
-  margin-left: 45px; }
+  margin: 10px 0;
+  padding: 0 12px;
+  height: 50px;
+  width: 100%;
+  font-size: 120%;
+  border: 1px #b6b6b6 solid;
+  background-color: transparent; }
 
-#newsletterButton .formControl {
-  background-color: #ff0000;
-  border: none;
-  color: #ffffff;
-  font-weight: bold;
-  float: right;
-  width: 15%; }
-  #newsletterButton .formControl:hover {
-    background-color: #bf0000; }
+.inputGroup label {
+  position: absolute;
+  top: 27px;
+  left: 13px; }
+
+.formControl:focus + label,
+.hasValue + label {
+  top: 12px;
+  font-size: 60%;
+  color: #ff0000; }
+
+.hasValue {
+  border-color: #000000; }
 
 /*# sourceMappingURL=Newsletter.css.map */

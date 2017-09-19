@@ -1,0 +1,21 @@
+$white: #ffffff;
+$dark-gray: #363636;
+
+.box{
+  float: left;
+  padding: 20px 98px 50px;
+  text-align: center;
+  font-family: "Berlin Sans FB", serif;
+  color: $dark-gray;
+  width: 120px;
+  height: 130px;
+
+  label{
+    font-size: 600%;
+    color: #5c2fb4;
+  }
+
+  &:hover{
+    background-color: $white;
+  }
+}
