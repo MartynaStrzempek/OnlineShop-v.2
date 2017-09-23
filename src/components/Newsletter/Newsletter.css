@@ -9,36 +9,6 @@
     float: left;
     color: #000000;
     font-weight: 800; }
-  #newsletter form .inputGroup {
-    position: relative; }
-    #newsletter form .inputGroup .formControl {
-      width: 60%;
-      float: left;
-      margin: 10px 0 0 65px;
-      padding: 0 12px;
-      height: 50px;
-      font-size: 120%;
-      border: 1px #b6b6b6 solid;
-      background-color: transparent; }
-      #newsletter form .inputGroup .formControl:focus {
-        outline: 0;
-        border: 1px #000000 solid; }
-        #newsletter form .inputGroup .formControl:focus + label {
-          top: 12px;
-          font-size: 60%;
-          color: #5c2fb4; }
-  #newsletter form #newsletterButton button {
-    background-color: #5c2fb4;
-    border: none;
-    color: #ffffff;
-    font-weight: bold;
-    float: right;
-    width: 15%;
-    height: 50px;
-    margin: 10px 0 0 10px;
-    font-size: 130%; }
-    #newsletter form #newsletterButton button:hover {
-      background-color: black; }
 
 .inputGroup label {
   padding-left: 217px;

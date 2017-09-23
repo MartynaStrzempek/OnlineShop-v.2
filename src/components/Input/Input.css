@@ -1,0 +1,20 @@
+.inputGroup {
+  position: relative; }
+  .inputGroup .formControl {
+    width: 60%;
+    float: left;
+    margin: 10px 0 0 65px;
+    padding: 0 12px;
+    height: 50px;
+    font-size: 120%;
+    border: 1px #b6b6b6 solid;
+    background-color: transparent; }
+    .inputGroup .formControl:focus {
+      outline: 0;
+      border: 1px #000000 solid; }
+      .inputGroup .formControl:focus + label {
+        top: 12px;
+        font-size: 60%;
+        color: #5c2fb4; }
+
+/*# sourceMappingURL=Input.css.map */

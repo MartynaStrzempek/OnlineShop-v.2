@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Newsletter.css'
+import Button from "../Button/Button";
+import Input from "../Input/Input";
 
 export default class Newsletter extends Component {
 
@@ -12,14 +14,9 @@ export default class Newsletter extends Component {
                             <label>Join to <br/> Newsletter</label>
                         </div>
 
-                        <div className="inputGroup">
-                            <input type="email" className="formControl"/>
-                                <label>E-mail</label>
-                        </div>
+                        <Input type="email" label="E-mail"/>
 
-                        <div id="newsletterButton">
-                            <button >Sign up</button>
-                        </div>
+                        <Button label="Sign up"/>
                     </form>
                 </div>
             </section>
