@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAGA,MAAM;EACJ,gBAAgB,EAJL,OAAO",
+"mappings": "AAGA,MAAM;EACJ,gBAAgB,EAJL,OAAO;EAKlB,WAAW,EAAE,YAAY;EACzB,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,KAAK,EAPK,OAAO;EASjB,YAAK;IACH,SAAS,EAAE,IAAI;IACf,KAAK,EAAE,OAAO",
 "sources": ["Boxes.scss"],
 "names": [],
 "file": "Boxes.css"

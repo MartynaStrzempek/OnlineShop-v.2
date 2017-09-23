@@ -1,5 +1,15 @@
 $light-gray: #e3e3e3;
+$dark-gray: #363636;
 
 #boxes{
   background-color: $light-gray;
+  font-family: Arial, serif;
+  font-weight: bold;
+  text-align: center;
+  color: $dark-gray;
+
+  label{
+    font-size: 600%;
+    color: #5c2fb4;
+  }
 }

@@ -3,58 +3,47 @@
   width: 80%;
   margin: 25px auto;
   padding-bottom: 80px; }
-  #newsletter form .inputGroup label {
-    padding-left: 197px; }
-  #newsletter form .formControl {
-    width: 60%;
-    float: left;
-    margin-left: 45px; }
-  #newsletter form #newsletterButton .formControl {
-    background-color: #5c2fb4;
-    border: none;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 150%;
-    float: right;
-    width: 15%;
-    height: 60px; }
-    #newsletter form #newsletterButton .formControl:hover {
-      background-color: #000000; }
   #newsletter form #newsletterLabel {
     font-size: 200%;
     width: 15%;
     float: left;
     color: #000000;
-    font-weight: 900; }
-
-.formControl:focus {
-  border: 1px #ff0000 solid;
-  outline: 0; }
-
-.inputGroup {
-  position: relative; }
-
-.formControl {
-  margin: 10px 0;
-  padding: 0 12px;
-  height: 50px;
-  width: 100%;
-  font-size: 120%;
-  border: 1px #b6b6b6 solid;
-  background-color: transparent; }
+    font-weight: 800; }
+  #newsletter form .inputGroup {
+    position: relative; }
+    #newsletter form .inputGroup .formControl {
+      width: 60%;
+      float: left;
+      margin: 10px 0 0 65px;
+      padding: 0 12px;
+      height: 50px;
+      font-size: 120%;
+      border: 1px #b6b6b6 solid;
+      background-color: transparent; }
+      #newsletter form .inputGroup .formControl:focus {
+        outline: 0;
+        border: 1px #000000 solid; }
+        #newsletter form .inputGroup .formControl:focus + label {
+          top: 12px;
+          font-size: 60%;
+          color: #5c2fb4; }
+  #newsletter form #newsletterButton button {
+    background-color: #5c2fb4;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    width: 15%;
+    height: 50px;
+    margin: 10px 0 0 10px;
+    font-size: 130%; }
+    #newsletter form #newsletterButton button:hover {
+      background-color: black; }
 
 .inputGroup label {
+  padding-left: 217px;
   position: absolute;
   top: 27px;
   left: 13px; }
-
-.formControl:focus + label,
-.hasValue + label {
-  top: 12px;
-  font-size: 60%;
-  color: #ff0000; }
-
-.hasValue {
-  border-color: #000000; }
 
 /*# sourceMappingURL=Newsletter.css.map */

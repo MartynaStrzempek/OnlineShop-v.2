@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
 import './MainNavigation.css'
+import Category from "../Category/Category";
 
 export default class MainNavigation extends Component {
 
     render() {
+
         return (
             <section className="mainNav">
+
                 <div className="container">
                     <nav>
                         <ul>
-                            <li>Oriental
-                                <ul>
-                                    <li>Spicy</li>
-                                    <li>Mild</li>
-                                    <li>Sweet</li>
-                                </ul>
-                            </li>
+                            <Category name="oriental"/>
 
                             <li>Thai
                                 <ul>
