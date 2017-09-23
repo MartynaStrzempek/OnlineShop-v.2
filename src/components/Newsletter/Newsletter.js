@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Newsletter.css'
 import Button from "../Button/Button";
-import Input from "../Input/Input";
+import InputWindow from "../InputWindow/InputWindow";
 
 export default class Newsletter extends Component {
 
@@ -13,9 +13,7 @@ export default class Newsletter extends Component {
                         <div id="newsletterLabel">
                             <label>Join to <br/> Newsletter</label>
                         </div>
-
-                        <Input type="email" label="E-mail"/>
-
+                        <InputWindow type="email" label="E-mail"/>
                         <Button label="Sign up"/>
                     </form>
                 </div>

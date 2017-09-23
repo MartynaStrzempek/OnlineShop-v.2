@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Input.css'
+import './InputWindow.css'
 
-export default class Input extends Component {
+export default class InputWindow extends Component {
 
     render() {
         return (
