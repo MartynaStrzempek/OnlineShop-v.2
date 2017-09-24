@@ -5,6 +5,21 @@ import InputWindow from "../InputWindow/InputWindow";
 
 export default class Newsletter extends Component {
 
+    // $(bla(){
+    //
+    //     $('.formControl').on('focusout', function(){
+    //
+    //         if($(this).val().length > 0) {
+    //             $(this).addClass('hasValue');
+    //         }
+    //         else{
+    //             $(this).removeClass('hasValue');
+    //         }
+    //     });
+    // });
+
+
+
     render() {
         return (
             <section id="newsletter">

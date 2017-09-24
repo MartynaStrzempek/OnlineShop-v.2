@@ -22,5 +22,20 @@
       }
     }
   }
+  //Clicking the label does not activate the input without this
+  input + label {
+    pointer-events: none;
+
+    * {
+      pointer-events: all;
+    }
+  }
 }
 
+
+//.hasValue + label{
+//top: 12px;
+//font-size: 60%;
+//color: #5c2fb4;
+//border: 1px #000000 solid;
+//}

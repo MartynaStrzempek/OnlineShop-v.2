@@ -1,5 +1,5 @@
 #newsletterButton button {
-  background-color: #5c2fb4;
+  background-color: #000000;
   border: none;
   color: #ffffff;
   font-weight: bold;
@@ -9,6 +9,6 @@
   margin: 10px 0 0 10px;
   font-size: 130%; }
   #newsletterButton button:hover {
-    background-color: black; }
+    background-color: #5c2fb4; }
 
 /*# sourceMappingURL=Button.css.map */

@@ -1,5 +1,7 @@
 #hits {
-  margin: 120px 0 50px; }
+  margin: 120px 0 50px;
+  width: 65%;
+  float: left; }
   #hits #hitsLabel {
     color: #000000;
     text-align: center;

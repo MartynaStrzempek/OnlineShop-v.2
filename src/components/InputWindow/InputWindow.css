@@ -16,5 +16,9 @@
         top: 12px;
         font-size: 60%;
         color: #5c2fb4; }
+  .inputGroup input + label {
+    pointer-events: none; }
+    .inputGroup input + label * {
+      pointer-events: all; }
 
 /*# sourceMappingURL=InputWindow.css.map */

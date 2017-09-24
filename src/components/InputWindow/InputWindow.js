@@ -3,6 +3,14 @@ import './InputWindow.css'
 
 export default class InputWindow extends Component {
 
+    // AddClassHasValue(){
+    //     if((document.getElementById('formControl').value.length) > 0)
+    //     {
+    //         this.addClass(formControl, 'hasValue');
+    //     }
+    // }
+
+
     render() {
         return (
             <div className="inputGroup">

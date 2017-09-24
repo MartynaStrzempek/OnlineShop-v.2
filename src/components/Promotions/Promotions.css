@@ -1,5 +1,7 @@
 #promotions {
-  margin: 0 0 50px; }
+  margin: 0 0 50px;
+  width: 65%;
+  float: left; }
   #promotions #promotionLabel {
     color: #000000;
     text-align: center;
