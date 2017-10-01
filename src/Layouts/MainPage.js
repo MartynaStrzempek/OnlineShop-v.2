@@ -3,12 +3,13 @@ import './MainPage.css';
 import SmallNavigation from "../components/SmallNavigation/SmallNavigation";
 import Header from "../components/Header/Header";
 import MainNavigation from "../components/MainNavigation/MainNavigation";
-import Hits from "../components/Hits/Hits";
-import Promotions from "../components/Promotions/Promotions";
-import News from "../components/News/News";
 import Boxes from "../components/Boxes/Boxes";
 import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
+//import MessageForm from "../components/MessageForm/MessageForm";
+import DayOffer from "../components/DayOffer/DayOffer";
+//import TextArea from "../components/TextArea/TextArea";
+//import Button from "../components/Button/Button";
 
 export default class MainPage extends Component {
 
@@ -18,11 +19,8 @@ export default class MainPage extends Component {
                 <SmallNavigation/>
                 <Header/>
                 <MainNavigation/>
-                <div className="container">
-                    <Hits/>
-                    <Promotions/>
-                    <News/>
-                </div>
+                <DayOffer/>
+                {/*<MessageForm/>*/}
                 <Boxes/>
                 <Newsletter/>
                 <Footer/>

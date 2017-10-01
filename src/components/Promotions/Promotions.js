@@ -6,7 +6,7 @@ export default class Promotions extends Component {
     render() {
         return (
             <section id="promotions">
-                <header id="promotionLabel">
+                <header id="promotionsLabel">
                     <h2>Promotions</h2>
                 </header>
                 <div className="products">

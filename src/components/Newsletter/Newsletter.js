@@ -29,7 +29,7 @@ export default class Newsletter extends Component {
                             <label>Join to <br/> Newsletter</label>
                         </div>
                         <InputWindow type="email" label="E-mail"/>
-                        <Button label="Sign up"/>
+                        <Button type="submit" label="Sign up"/>
                     </form>
                 </div>
             </section>

@@ -1,16 +1,4 @@
 #hits {
-  margin: 120px 0 50px;
-  width: 65%;
-  float: left; }
-  #hits #hitsLabel {
-    color: #000000;
-    text-align: center;
-    padding: 8px;
-    font-family: Aharoni, serif;
-    font-size: 140%;
-    font-style: oblique; }
-  #hits .products img {
-    margin: 50px 30px;
-    width: 20%; }
+  margin: 120px 0 50px; }
 
 /*# sourceMappingURL=Hits.css.map */

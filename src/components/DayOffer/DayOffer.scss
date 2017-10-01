@@ -1,7 +1,10 @@
-#promotions{
-  margin: 0 0 50px;
+#dayOffer{
+  width: 65%;
+  float: left;
 
-  #promotionLabel{
+  #hitsLabel,
+  #promotionsLabel,
+  #newsLabel{
     color: #000000;
     text-align: center;
     padding: 8px;
@@ -15,4 +18,3 @@
     width: 20%;
   }
 }
-

@@ -1,0 +1,17 @@
+#dayOffer {
+  width: 65%;
+  float: left; }
+  #dayOffer #hitsLabel,
+  #dayOffer #promotionsLabel,
+  #dayOffer #newsLabel {
+    color: #000000;
+    text-align: center;
+    padding: 8px;
+    font-family: Aharoni, serif;
+    font-size: 140%;
+    font-style: oblique; }
+  #dayOffer .products img {
+    margin: 50px 30px;
+    width: 20%; }
+
+/*# sourceMappingURL=DayOffer.css.map */

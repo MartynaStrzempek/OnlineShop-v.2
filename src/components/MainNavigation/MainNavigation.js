@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './MainNavigation.css'
-import Category from "../Category/Category";
+import Categories from "../Categories/Categories";
 
 export default class MainNavigation extends Component {
 
@@ -11,51 +11,7 @@ export default class MainNavigation extends Component {
 
                 <div className="container">
                     <nav>
-                        <ul>
-                            <Category name="oriental"/>
-
-                            <li>Thai
-                                <ul>
-                                    <li>Spicy</li>
-                                    <li>Mild</li>
-                                    <li>Sweet</li>
-                                </ul>
-                            </li>
-
-                            <li>Indian
-                                <ul>
-                                    <li>Spicy</li>
-                                    <li>Mild</li>
-                                    <li>Sweet</li>
-                                </ul>
-                            </li>
-
-                            <li>Chinese
-                                <ul>
-                                    <li>Spicy</li>
-                                    <li>Mild</li>
-                                    <li>Sweet</li>
-                                </ul>
-                            </li>
-
-                            <li>Japanese
-                                <ul>
-                                    <li>Spicy</li>
-                                    <li>Mild</li>
-                                    <li>Sweet</li>
-                                </ul>
-                            </li>
-
-                            <li>Vietnamese
-                                <ul>
-                                    <li>Spicy</li>
-                                    <li>Mild</li>
-                                    <li>Sweet</li>
-                                </ul>
-                            </li>
-
-                            <li>Newsletter</li>
-                        </ul>
+                        <Categories/>
                     </nav>
                 </div>
             </section>
