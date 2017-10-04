@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2668c41b-07f3-4e21-9aa4-5dcfe9f4a86a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Layouts/MainPage.css" afterPath="$PROJECT_DIR$/src/Layouts/MainPage/MainPage.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Layouts/MainPage.css.map" afterPath="$PROJECT_DIR$/src/Layouts/MainPage/MainPage.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Layouts/MainPage.js" afterPath="$PROJECT_DIR$/src/Layouts/MainPage/MainPage.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Layouts/MainPage.scss" afterPath="$PROJECT_DIR$/src/Layouts/MainPage/MainPage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Layouts/SignUpPage/SignUpPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Layouts/SignUpPage/SignUpPage.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,14 +32,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Layouts/MainPage/MainPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="323">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Layouts/SignUpPage/SignUpPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpPage.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Layouts/SignUpPage/SignUpPage.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/SmallNavigation/SmallNavigation.js" />
         <option value="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.css" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.scss" />
         <option value="$PROJECT_DIR$/src/Colors.scss" />
@@ -187,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/components/SubCategory/SubCategory.js" />
         <option value="$PROJECT_DIR$/src/components/Category/Category.js" />
         <option value="$PROJECT_DIR$/src/Layouts/MainPage/MainPage.js" />
+        <option value="$PROJECT_DIR$/src/Layouts/SignUpPage/SignUpPage.js" />
       </list>
     </option>
   </component>
@@ -260,13 +276,6 @@
               <item name="OnlineShop-v.2" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineShop-v.2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="SmallNavigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop-v.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop-v.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,6 +284,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Layouts" type="462c0819:PsiDirectoryNode" />
               <item name="MainPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop-v.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop-v.2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="SignUpPage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -328,12 +344,12 @@
       <workItem from="1506794369473" duration="89000" />
       <workItem from="1506797835033" duration="7250000" />
       <workItem from="1507050263791" duration="600000" />
-      <workItem from="1507106510924" duration="1964000" />
+      <workItem from="1507106510924" duration="2693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117566000" />
+    <option name="totallyTimeSpent" value="118295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,20 +396,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SmallNavigation/SmallNavigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -719,11 +721,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Layouts/MainPage/MainPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Layouts/SignUpPage/SignUpPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Layouts/SignUpPage/SignUpPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
