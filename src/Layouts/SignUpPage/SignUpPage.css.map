@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,CAAC;EACC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGZ,UAAU;EACR,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,MAAM",
+"sources": ["SignUpPage.scss"],
 "names": [],
 "file": "SignUpPage.css"
 }
