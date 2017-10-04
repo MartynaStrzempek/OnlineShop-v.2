@@ -20,8 +20,6 @@ export default class Categories extends Component {
         });
     }
     render() {
-
-        //var list = [ getList(this.props.name) ]
         const { categories } = this.state;
 
         const categoryComponents = Array.isArray(categories) && categories.map((category) => {

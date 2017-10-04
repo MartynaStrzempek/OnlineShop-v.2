@@ -2,39 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2668c41b-07f3-4e21-9aa4-5dcfe9f4a86a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Dispatcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Stores/CategoryStore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Categories/Categories.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/DayOffer/DayOffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/DayOffer/DayOffer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/MessageForm/MessageForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/MessageForm/MessageForm.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/TextArea/TextArea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/TextArea/TextArea.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/SubCategory/SubCategory.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/SubCategory/SubCategory.css.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/SubCategory/SubCategory.scss" afterPath="$PROJECT_DIR$/src/Actions/TodoActions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Layouts/MainPage.js" afterPath="$PROJECT_DIR$/src/Layouts/MainPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Button/Button.css" afterPath="$PROJECT_DIR$/src/components/Button/Button.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Button/Button.css.map" afterPath="$PROJECT_DIR$/src/components/Button/Button.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Button/Button.js" afterPath="$PROJECT_DIR$/src/components/Button/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Categories/Categories.js" afterPath="$PROJECT_DIR$/src/components/Categories/Categories.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Category/Category.js" afterPath="$PROJECT_DIR$/src/components/Category/Category.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.js" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Hits/Hits.css" afterPath="$PROJECT_DIR$/src/components/Hits/Hits.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Hits/Hits.css.map" afterPath="$PROJECT_DIR$/src/components/Hits/Hits.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Hits/Hits.scss" afterPath="$PROJECT_DIR$/src/components/Hits/Hits.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.js" afterPath="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/News/News.css" afterPath="$PROJECT_DIR$/src/components/News/News.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/News/News.css.map" afterPath="$PROJECT_DIR$/src/components/News/News.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/News/News.scss" afterPath="$PROJECT_DIR$/src/components/News/News.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.js" afterPath="$PROJECT_DIR$/src/components/Newsletter/Newsletter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Promotions/Promotions.css" afterPath="$PROJECT_DIR$/src/components/Promotions/Promotions.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Promotions/Promotions.css.map" afterPath="$PROJECT_DIR$/src/components/Promotions/Promotions.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Promotions/Promotions.js" afterPath="$PROJECT_DIR$/src/components/Promotions/Promotions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Promotions/Promotions.scss" afterPath="$PROJECT_DIR$/src/components/Promotions/Promotions.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SubCategory/SubCategory.js" afterPath="$PROJECT_DIR$/src/components/SubCategory/SubCategory.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainNavigation.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainNavigation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -67,7 +38,7 @@
       <file leaf-file-name="MainPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Layouts/MainPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="34">
               <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -79,8 +50,8 @@
       <file leaf-file-name="Categories.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Categories/Categories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="199">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -88,12 +59,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Category.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Category.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Category/Category.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding />
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +74,8 @@
       <file leaf-file-name="SubCategory.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/SubCategory/SubCategory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -111,8 +84,8 @@
       <file leaf-file-name="CategoryStore.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stores/CategoryStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -204,13 +177,13 @@
         <option value="$PROJECT_DIR$/src/components/Todo/Todo.js" />
         <option value="$PROJECT_DIR$/src/Actions/TodoActions.js" />
         <option value="$PROJECT_DIR$/src/components/Flux/Flux.js" />
-        <option value="$PROJECT_DIR$/src/components/SubCategory/SubCategory.js" />
-        <option value="$PROJECT_DIR$/src/components/Category/Category.js" />
         <option value="$PROJECT_DIR$/src/Stores/TodoStore.js" />
         <option value="$PROJECT_DIR$/src/Layouts/MainPage.js" />
         <option value="$PROJECT_DIR$/src/Stores/CategoryStore.js" />
-        <option value="$PROJECT_DIR$/src/components/Categories/Categories.js" />
         <option value="$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.js" />
+        <option value="$PROJECT_DIR$/src/components/Categories/Categories.js" />
+        <option value="$PROJECT_DIR$/src/components/SubCategory/SubCategory.js" />
+        <option value="$PROJECT_DIR$/src/components/Category/Category.js" />
       </list>
     </option>
   </component>
@@ -256,6 +229,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,7 +296,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,12 +342,14 @@
       <workItem from="1505765781962" duration="26307000" />
       <workItem from="1506176706045" duration="38567000" />
       <workItem from="1506794369473" duration="89000" />
-      <workItem from="1506797835033" duration="1759000" />
+      <workItem from="1506797835033" duration="7250000" />
+      <workItem from="1507050263791" duration="600000" />
+      <workItem from="1507106510924" duration="1692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109511000" />
+    <option name="totallyTimeSpent" value="117294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,16 +364,16 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13878328" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.031685676" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -713,19 +688,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stores/CategoryStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Layouts/MainPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="34">
           <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -735,18 +700,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Categories/Categories.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="199">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stores/CategoryStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SubCategory/SubCategory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -754,15 +739,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Category/Category.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MainNavigation/MainNavigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

@@ -8,7 +8,6 @@ export default class MainNavigation extends Component {
 
         return (
             <section className="mainNav">
-
                 <div className="container">
                     <nav>
                         <Categories/>
