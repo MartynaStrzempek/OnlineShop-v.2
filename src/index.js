@@ -4,5 +4,9 @@ import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import MainPage from "./Layouts/MainPage/MainPage";
 
-ReactDOM.render(<MainPage />, document.getElementById('root'));
+const root  = document.getElementById('root');
+
+ReactDOM.render(
+   <MainPage/>,
+root);
 registerServiceWorker();
