@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './SmallNavigation.css'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import { Route, Switch } from 'react-router';
+import { Route, Switch, Redirect} from 'react-router';
 import Home from './Home';
 import SignUpPage from './SignUpPage';
 
@@ -21,15 +21,15 @@ export default class SmallNavigation extends Component {
                                     <li><Link to="/SignUpPage">Sign Up</Link></li>
                                     <li>Cart</li>
                                 </ul>
-                                <Match exactly pattern="/Home" component={Home}/>
-                                <Match pattern="/SignUpPage" component={SignUpPage}/>
+                                <Switch>
+                                    <Route exact path='/Home' component={Home}/>
+                                    <Route path='/SignUpPage' component={SignUpPage}/>
+                                </Switch>
                             </nav>
                         </div>
                     </section>
                 </Router>
             </div>
-
         );
     }
-
 }

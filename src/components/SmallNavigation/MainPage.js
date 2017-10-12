@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './MainPage.css';
+import '../../Layouts/MainPage/MainPage.css';
 import SmallNavigation from "../../components/SmallNavigation/SmallNavigation";
 import Header from "../../components/Header/Header";
 import MainNavigation from "../../components/MainNavigation/MainNavigation";
@@ -16,7 +16,7 @@ export default class MainPage extends Component {
     render() {
         return (
             <div>
-                <SmallNavigation/>
+
                 <Header/>
                 <MainNavigation/>
                 <DayOffer/>
@@ -24,6 +24,7 @@ export default class MainPage extends Component {
                 <Boxes/>
                 <Newsletter/>
                 <Footer/>
+                <SmallNavigation/>
             </div>
         );
     }
